@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/XseXU8J.png" width="900">
 
-# Welcome to General Assembly SEI-DT-69
+# Welcome to General Assembly SEI-DT-71
 
 This will be your shared class repo! Guides, in-class labs and code samples, and other resources will live here.
 
@@ -15,7 +15,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 ### Repo Structure
 
 ```
-/sei-dt-69
+/sei-dt-71
     /computer_science
     /projects
     /resources
