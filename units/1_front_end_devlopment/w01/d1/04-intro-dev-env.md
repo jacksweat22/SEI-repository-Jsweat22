@@ -1,4 +1,4 @@
-[Click here to view as a presentation](https://presentations.generalassemb.ly/6ee3de55641a94a8d04100c86ac7b95c#/1)
+[click to view as a presentation](https://presentations.generalassemb.ly/5b98418eebcfdda4083fa22a8bd15419#/1)
 
 ---
 <img src="https://i.imgur.com/e1w0oZI.png" width="900">
@@ -76,6 +76,19 @@
 ---
 ## Using the _Terminal_<br>Command Line Interface
 
+Terminal provides a Command Line Interface (CLI) to the operating system. With it you can give your computer direct, text-based instructions. 
+It is the most powerful piece of software on your computer! 
+Think of it as the central hub of your development process.
+
+For now, we will use it to navigate the files and folders in our computer.
+
+---
+When terminal launches, it will start in your computer's home directory (whatever you named your computer). 
+
+Your home directory is denoted by the tilde **~**.
+
+In Terminal-land, Directories are the same as Folders (we just call them Directories).
+
 ---
 ### What is _Terminal_?
 - _Terminal_ is the developers' choice for entering commands and navigating the filesystem.
@@ -111,13 +124,35 @@ $ cd ~
 	- `.` The current directory
 	- `..` The parent directory of the current directory
 
-- The `pwd` command "prints" the current (working) directory
+---
+### Describe the state of the current directory
+
+The Command Line understands commands written in the `bash scripting language`. The commands are abbreviations of English words, or acronyms.
+
+- `pwd` - will print the current working directory. It shows you a `path`. This `path` shows you where you are currently located in the filesystem. It's like sending up a flare or homing beacon, where you can see how far you have 'traveled' from the root directory.
+
+![](https://i.imgur.com/4aaT88x.png)
 
 ---
-#### List a Directory's Contents
-- Use the `ls` command to display a concise list.
-- `ls` does not display hidden files by default, adding the `-a` option will show them.
-- `tree` is a nice utility for displaying a graphical representation of a directory and its nested directories.<br/>Install it by typing `brew install tree`.
+
+`ls` - Lists the contents of the current directory. You can see
+	* the immediate _child_ directories (the directories inside this directory)
+	* the files in this directory
+
+![](https://i.imgur.com/H2RTUny.png)
+
+---
+- Bash commands can take `flags` denoted by a dash `-`
+	- `ls -a` - list content including hidden files and directories. Hidden files and directories begin with a period, for example, `.git`.
+	- `ls -l` - list content and give meta information about each item
+
+
+Directories (folders) can have directories within them, and there can be directories inside _those_ directories, ad infinitum. This creates a tree structure where directories can have many children with many different branches.
+
+---
+#### Visualize a Directory's Contents
+- `tree` is a nice utility for displaying a graphical representation of a directory and its nested directories.
+<br/>Install it by typing `brew install tree`.
 
 ---
 #### Create a Directory

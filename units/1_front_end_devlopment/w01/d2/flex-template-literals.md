@@ -99,8 +99,8 @@ var htmlTemplate =
 
 Tagging template literals is an advanced use case of template literals.
 
-Basically, you can preface a template literal with a function.  The function would then be called to process the template literal. This provides unlimited flexibility when transforming the literal.
-
+Basically, you can preface a template literal with a function.  
+The function would then be called to process the template literal. This provides unlimited flexibility when transforming the literal.
 However, their use is not common, thus we will not cover them here.  Be sure to read the docs if you're interested in learning more:
 
 [MDN - Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)

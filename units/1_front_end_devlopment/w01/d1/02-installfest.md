@@ -85,8 +85,8 @@ Finally, lets put some good stuff in there (`.gitignore_global`):
 
 This is a list of rules for ignoring files in every Git repositories on your computer.
 
-See https://help.github.com/articles/ignoring-files and this gist: 
-https://gist.github.com/gregsantos/b80ff65143801d8c5fc17ac3f2814a8d
+See https://help.github.com/articles/ignoring-files and this gist for a comprehensive sample: 
+[.gitignore_global](https://gist.git.generalassemb.ly/gregsantos/528279e2c46523d0fc556e4550a7361b)
 
 ---
 ## Node.js
@@ -200,4 +200,4 @@ Download and install VS Code from [https://code.visualstudio.com/](https://code.
 
 Check [this link](https://code.visualstudio.com/docs/setup/mac) for troubleshooting if you run into issues.
 
-[VS Code Flex](https://git.generalassemb.ly/SEI/dt-71/units/1_front_end_development/w01/d1/flex-vs-code.md)
+[VS Code Flex](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d1/flex-vscode.md)

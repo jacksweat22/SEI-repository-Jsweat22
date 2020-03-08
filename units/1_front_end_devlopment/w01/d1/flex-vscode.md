@@ -44,9 +44,17 @@
 
 - To edit a specific file in VS Code, we can simply type the file after `code`.
 
-- Let's add an _alias_ (shortcut) command that will change to your class repo directory by simply typing `repo`. We can do this by editing the hidden `.bash_profile` file.
+- Let's add an _alias_ (shortcut) command that will change to your class repo directory by simply typing `repo`. 
+We can do this by editing the hidden `.bash_profile` file.
 
-      	$ code ~/.bash_profile
+```sh
+$ code ~/.bash_profile
+
+		-OR-
+
+$ code ~/.zprofile
+```
+
 
 ---
 
@@ -74,5 +82,29 @@
 * Split Panel Horizontally: **CTRL+\\**
 * Find in document/page: **CMD f**
 * Find in Workspace: **CMD Shift F**
+
+---
+### Emmet Snippets and Actions
+
+```css
+
+#page>div.logo+ul#navigation>li*5>a{Item $}
+
+```
+
+Can be transformed into this with just a single key stroke.
+
+```html
+<div id="page">
+    <div class="logo"></div>
+    <ul id="navigation">
+        <li><a href="">Item 1</a></li>
+        <li><a href="">Item 2</a></li>
+        <li><a href="">Item 3</a></li>
+        <li><a href="">Item 4</a></li>
+        <li><a href="">Item 5</a></li>
+    </ul>P
+</div>
+```
 
 [Emmet Cheatsheet](https://docs.emmet.io/cheat-sheet/)
