@@ -8,6 +8,7 @@ We'll be installing the following tools.
 - Homebrew
 - Xcode
 - Git
+- Postman
 - Node.js
 - PostgreSQL
 - MongoDB
@@ -87,6 +88,17 @@ This is a list of rules for ignoring files in every Git repositories on your com
 
 See https://help.github.com/articles/ignoring-files and this gist for a comprehensive sample: 
 [.gitignore_global](https://gist.git.generalassemb.ly/gregsantos/528279e2c46523d0fc556e4550a7361b)
+
+---
+## Postman
+Postman is an app for interacting with HTTP APIs. 
+It presents you with a friendly GUI for constructing requests and reading responses.
+- Create and execute any REST, SOAP, and GraphQL queries from within Postman.
+    - Create and save custom methods and send requests with the multiple body types:
+- Inspect Responses
+ - View the status code, response time, and response size. Postman's automatic language detection, link and syntax highlighting, search, and text formatting make it easy to inspect the response body
+
+visit [postman.com/downloads](https://www.postman.com/downloads/)
 
 ---
 ## Node.js

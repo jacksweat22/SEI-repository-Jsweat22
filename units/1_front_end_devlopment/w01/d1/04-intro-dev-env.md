@@ -1,7 +1,7 @@
-[click to view as a presentation](https://presentations.generalassemb.ly/5b98418eebcfdda4083fa22a8bd15419#/1)
+[click to view as a presentation](https://presentations.generalassemb.ly/3a1ce1a2d04f8af425b70b3aadfae728#/1)
 
 ---
-<img src="https://i.imgur.com/e1w0oZI.png" width="900">
+<img src="https://media.giphy.com/media/3oEjHQn7PBRvy9A5mE/giphy.gif" width="900">
 
 # Intro to the<br>Dev Environment
 
