@@ -1,21 +1,23 @@
-<img src="https://i.imgur.com/DEsPVNw.png">
+<img src="https://i.imgur.com/DEsPVNw.png" width="300">
 
 # Intro to JavaScript & Data Types
 
-## Learning Objectives
+---
+### Learning Objectives
 
 | Students will be able to: |
 | :--- |
 | Define Variables Using Proper Naming Conventions |
 | Identify JavaScript's Data Types |
 
-## Roadmap
-1. Intro to JavaScript
-2. Variables
+### Roadmap
+1. Introduction to JavaScript
+2. Definition and Purpose for Variables
 3. Explore JavaScript's Data Types
 4. Review Questions
 5. Further Study
 
+---
 ## 1. Intro to JavaScript
 
 > _Atwood's Law:_<br>
@@ -232,7 +234,7 @@ Whereas strings and numbers can have a virtually unlimited number of different v
 
 For example, in a Social Gaming app, we would represent a Gamer's Handle using a **string**.
 
-Before moving on to review the other data types, let's pair up with a partner and identify a couple of examples for each of the three common data types that would be used to represent information in that gaming app:
+Before moving on to review the other data types, let's identify a couple of examples for each of the three common data types that would be used to represent information in that gaming app:
 
 <table>
 	<thead>
@@ -245,12 +247,6 @@ Before moving on to review the other data types, let's pair up with a partner an
 	</tbody>
 </table>
 
-```
-Please *reply* to this slack message with your examples of:
-Strings:
-Numbers:
-Booleans:
-```
 
 <hr>
 

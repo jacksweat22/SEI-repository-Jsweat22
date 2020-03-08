@@ -23,6 +23,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
       /1_front_end_development
           /week01
             /day1
+    README.md
 ```
 
 ### Course Curriculum
@@ -202,6 +203,7 @@ These coding challenges start with day 1 and will continue through week 8 (exclu
 | :---------------------- | :------------------ | :------------------- | :----------------------------------- |
 | Lead Instructor         | Greg Santos         | @gregsantos          | greg.santos@generalassemb.ly         |
 | Instructional Associate | Michael Christenson | @michael.christenson | michael.christenson@generalassemb.ly |
+| Instructional Associate | Milcah Centeno | @milcah.centeno | milcah.centeno@generalassemb.ly |
 
 ### Course Information
 
