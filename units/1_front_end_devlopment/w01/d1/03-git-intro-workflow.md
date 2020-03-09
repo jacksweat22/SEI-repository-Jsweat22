@@ -107,4 +107,4 @@ This is the basic git/GH workflow.  Things get a bit more complex when you start
 
 ---
 
-Refer to the the [git cheatsheet](https://git.generalassemb.ly/SEI/dt-71/resources/git_command_cheatsheet_github) in the class repo
+Refer to the the [git cheatsheet](https://git.generalassemb.ly/SEI/dt-71/blob/master/resources/git_command_cheatsheet_github.pdf) in the class repo
