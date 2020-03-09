@@ -1,3 +1,7 @@
+[To view this lesson as a presentation, click here.](https://presentations.generalassemb.ly/b69a5c4bbf7e99a9c4626382cd56912b#/)
+
+---
+
 <img src="https://i.imgur.com/DEsPVNw.png" width="300">
 
 # Intro to JavaScript & Data Types
