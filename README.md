@@ -113,10 +113,10 @@ Now that you have a copy of the class repo in your GitHub account, it's time to 
 4. In Terminal, type `git clone` and follow it by pasting in the copied URL from the clipboard. The command should now look something like this:
 
 ```
-$ git clone https://git.generalassemb.ly/YOUR-ENTERPRISE-GITHUB-USERNAME/SEI/sei-dt-69
+$ git clone https://git.generalassemb.ly/YOUR-ENTERPRISE-GITHUB-USERNAME/SEI/sei-dt-71
 ```
 
-You can now `$ cd sei-dt-69` and check out your local copy of of the GA class repo!
+You can now `$ cd sei-dt-71` and check out your local copy of of the GA class repo!
 
 #### Adding a git _remote_ for the original GA class repo
 
@@ -135,7 +135,7 @@ Note that by convention, the remote that points to the GitHub repo it was cloned
 However, in order to get the updates that the instructors push to the GA class repo, you will need to create another **remote** that points to GA's class repo that you forked:
 
 ```
-$ git remote add upstream https://git.generalassemb.ly/SEI/sei-dt-69.git
+$ git remote add upstream https://git.generalassemb.ly/SEI/sei-dt-71.git
 ```
 
 Note that by convention, the remote that points to the _original_ GitHub repo that was forked is named **upstream**.
