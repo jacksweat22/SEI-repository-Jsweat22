@@ -68,6 +68,7 @@ Write down five things that you learned from reading this.  Write down five thin
 		- What is it?
 			- copying another student's code
 			- copying another student's code and altering it to look like yours
+			- Easter Egg **717171**
 			- copying a solution to a homework question, lab, or project that you found online
 			- copying a solution to a homework question, lab, or project that you found online and altering it to look like yours
 		- What is it not?
