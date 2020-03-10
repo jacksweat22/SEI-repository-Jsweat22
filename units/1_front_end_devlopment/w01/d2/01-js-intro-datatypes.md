@@ -519,6 +519,163 @@ Remember however, that the data type for both flavors, integer and float (short 
 
 ---
 
+## Write a While loop
+
+### Programming principle: DRY
+
+Don't Repeat Yourself
+
+---
+
+What if we needed to write a program that counts from 1 up to 1000? We could set about doing this:
+
+```javascript
+console.log('The number is: ' + 1);
+console.log('The number is: ' + 2);
+console.log('The number is: ' + 3);
+console.log('The number is: ' + 4);
+console.log('The number is: ' + 5);
+// etc.
+```
+
+---
+
+Are we really going to write 1000 lines of code? Programmers are _lazy_ in a good way. They care about efficiency. They do not want to write 1000 lines of the same thing with minor tweaks. Instead, programmers try to find shortcuts, and luckily, we can use **loops** to perform repetitive tasks.
+
+---
+
+Here is an example of a **while loop**. We can use 6-ish lines of code to print 1000 lines of text. This is an application of **DRY.**
+
+```javascript
+let num = 1;
+
+while (num <= 1000) {
+	console.log('The number is: ' + num);
+	num++;
+}
+```
+
+---
+
+### Loop Concept
+
+![Clock loop](https://media.giphy.com/media/zzDDW60OOPm1y/giphy.gif)
+
+---
+
+What is a loop? A loop is a process that **repeats**. Along the way, the loop might accumulate or change some values. For example, an analog clock works in a **loop**, and each loop of the minute hand increases the count of the hour-hand by 1. The hour-hand counts from 1 to 12, and after 12 loops, it starts counting again from 1.
+
+---
+
+### Loop Syntax - while loop
+
+While loop examples:
+
+```javascript
+let num = 1;
+
+while (num <= 1000) {
+	console.log('The number is: ' + num);
+	num++;
+}
+```
+
+---
+
+```javascript
+let runProgram = true;
+
+while (runProgram) {
+	console.log('program is running');
+	runProgram = false;
+}
+```
+
+---
+
+pseudo-code
+
+```
+initial condition
+
+while (BOOLEAN EXPRESSION) {
+ // run code in block
+ change condition
+}
+```
+
+---
+
+Let's look at the different parts of the first example:
+
+#### Initial condition
+
+```javascript
+let num = 1;
+```
+
+Before our while loop we used: `let num = 1;`
+
+All we did was **declare a variable** and give it a value, in this case a **number**.
+
+This is to set a **starting condition** for our loop.
+
+---
+
+All we want is for our loop to count, but it needs a place to start counting from.
+
+We could change this to whatever we want:
+
+```javascript
+let zum = 90;
+
+while (zum <= 1000) {
+	console.log('The current number is: ' + zum);
+	zum++;
+}
+```
+
+---
+
+#### Boolean Expression
+
+Here's the next part of the first example:
+
+```javascript
+while(num <= 1000)
+```
+
+In our while loop we used `num <= 1000`. This is a **BOOLEAN EXPRESSION**. Under the hood, it evaluates either to **true** or **false**.
+
+---
+
+The loop will run **while** the expression is true. As soon as the expression is false, the loop will end.
+
+```javascript
+while (BOOLEAN_EXPRESSION) {
+	// code to repeat
+}
+```
+
+---
+
+If the expression never became false, the loop would never end. This would be an **infinite loop**. You want to avoid infinite loops because they will crash your program.
+
+---
+
+### Activity
+
+- Write a _while_ loop that counts from 1 to 100.
+
+---
+
+**Extra Activity**
+
+- Write another _while_ loop, but write it from from memory. Make the loop count from 0 to 5000 and print the square of each number.
+- FIGURE IT OUT: How can you get a while loop to count _backwards_? Use the postfix operator `i--` to make a loop count backwards from 1000 to 1.
+
+---
+
 ## References
 
 [MDN JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
