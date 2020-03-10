@@ -153,9 +153,11 @@ Examples of adding/removing elements with `splice`:
 
 ```js
 movies => [ 'Caddyshack', 'Interstellar', 'Scarface',  
+<br />
 'Trading Places' ]
 let removedMovies = movies.splice(3, 1, 'Spaceballs', 'Alien');
 movies => [ 'Caddyshack', 'Interstellar', 'Scarface',  
+<br />
 'Spaceballs', 'Alien' ]
 removedMovies = movies.splice(0, 3);
 movies => [ 'Spaceballs', 'Alien' ]
