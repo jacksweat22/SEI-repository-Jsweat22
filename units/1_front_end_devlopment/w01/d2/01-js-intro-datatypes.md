@@ -559,10 +559,7 @@ while (num <= 1000) {
 
 ### Loop Concept
 
----
-
 ![Clock loop](https://media.giphy.com/media/zzDDW60OOPm1y/giphy.gif)
-
 
 ---
 
