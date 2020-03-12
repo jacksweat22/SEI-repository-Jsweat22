@@ -8,7 +8,7 @@ btn.addEventListener('click', function(evt) {
 
   document.querySelector('ul')
     .addEventListener('click', handleClick);
-    
-  function handleClick(evt) {
-      console.log(evt);
+
+   function handleClick(evt){
+    evt.target.style.color = 'red';
   }
