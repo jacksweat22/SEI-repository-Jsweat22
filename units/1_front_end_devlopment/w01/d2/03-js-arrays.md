@@ -302,7 +302,7 @@ The `splice` method always returns an array containing the removed elements.
 
 - Because arrays are such a useful data structure, it's beneficial to developers to know what methods are available and what they do.
 
-- Array iterator methods are extremely useful and we will cover them in a later lesson. Check [here](https://gist.github.com/jim-clark/843ebb5288d90da6b0dfd9eecd134b7c) for a preview.
+- Array iterator methods are extremely useful and we will cover them in a later lesson. Check [here](https://gist.github.com/gregsantos/138fb1517376ef3c07e362036663dec2) for a preview.
 
 - Other useful methods worth knowing about:
 	- `indexOf` / `lastIndexOf`
