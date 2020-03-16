@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/XseXU8J.png" width="900">
 
-# Welcome to General Assembly SEI-DT-71 :)
+# Welcome to General Assembly SEI-DT-71
 
 This will be your shared class repo! Guides, in-class labs and code samples, and other resources will live here.
 
@@ -231,3 +231,16 @@ When you complete our program with passing status, you unlock our alumni perks:
 ### Welcome!
 
 <img src="https://media.giphy.com/media/OF0yOAufcWLfi/giphy.gif" width="900">
+
+
+## Class Lessons and Recordings
+###### #class-lessons-recordings
+
+## Class Lessons and Recordings
+###### #class-lessons-recordings
+
+All course recordings will be linked below as well as quick links to that days markdown files and exercises. Recordings will be posted witin 12 - 24 hours of that class ending.
+
+| Day | Lectures | Labs | Homework | Recording |
+|:---:|:-----------:|:-------:|:-----------:|:-----------:|
+| w02d1 |[Lectures]()| [Labs]()| [Homework]()|[Recording]()|
