@@ -241,4 +241,4 @@ All course recordings will be linked below as well as quick links to that days m
 
 | Day | Lectures | Labs | Homework | Recording |
 |:---:|:-----------:|:-------:|:-----------:|:-----------:|
-| w02d1 |[Lectures]()| [Labs]()| [Homework]()|[Recording]()|
+| w02d1 |[Intro to HTML](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/01-intro-to-html.md), [Intro to CSS](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/02-intro-to-css.md), [How to Build a Browser Game](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/03-04-guide-to-building-a-browser-game.md) | [CSS Diner (CSS Selector Practice)](https://flukeout.github.io/) [Build a Game Together](https://git.generalassemb.ly/SEI/holeman-game) | [JS Code Challenges](https://git.generalassemb.ly/SEI/js-code-challenges) | [Recording]() |
