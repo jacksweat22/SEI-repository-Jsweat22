@@ -11,6 +11,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 - Contact Information
 - Course Information and Dates
 - Immersive Graduation Requirements
+- [Quick Links & Recordings](#class-lessons-recordings)
 
 ### Repo Structure
 
@@ -232,9 +233,6 @@ When you complete our program with passing status, you unlock our alumni perks:
 
 <img src="https://media.giphy.com/media/OF0yOAufcWLfi/giphy.gif" width="900">
 
-
-## Class Lessons and Recordings
-###### #class-lessons-recordings
 
 ## Class Lessons and Recordings
 ###### #class-lessons-recordings
