@@ -4,34 +4,61 @@
   }
   
   body {
-    margin: 0 auto;
+    display: grid;
     font-family: Helvetica;
     background-color: rgba(212, 215, 212, 1);
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-auto-rows: 50px 1fr 3fr;
-    flex-direction: column;
-    justify-content: start;
-    padding: 3px;
+    grid-template-rows: 50px 1fr 4fr;
+    flex-direction: row;
     margin-top: 50%;
     margin-bottom: 50%;
-    grid-gap: 5px;
-    
-  }
-  aside{
-    background-color: royalblue;
-    height: 300px;
-    grid-column: 1 / 3;
-  }
-  footer{ 
-    background-color: gold;
-    height: 50px;
-    grid-column: 1 / 3;
-  }
-  main{
-    background-color: salmon;
-    grid-column: 1 / 3;
+    border-radius: 5%;
   }
 
-  aside, main, footer
+  aside {
+    background-color: royalblue;
+    height: 70px;
+  }
+  footer { 
+    background-color: gold;
+    height: 30px;
+  }
+  main {
+    background-color: salmon;
+    height: 175px;
+    display: grid;
+    flex-direction: grid;
+    margin: 0;
+    
+  }
+  aside, main, footer {
+    border: 1px solid black;
+    width: 200px;
+    grid-column: 1 / 3;
+    margin: 0 auto;
+    display: grid;
+  }
+
+.name {
+  margin: 0;
+  text-align: center;
+}
+
+.status {
+  text-align: right;
+  flex-direction: row;
+  padding: 3px;
+  grid-template-rows: 200px 10px;
+  justify-content: flex-start;
+  margin: 0;
+}
+img {
+  background-color: gray;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+.penguino {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
