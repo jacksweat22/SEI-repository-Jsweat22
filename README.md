@@ -11,6 +11,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 - Contact Information
 - Course Information and Dates
 - Immersive Graduation Requirements
+- [Quick Links & Recordings](#class-lessons-recordings)
 
 ### Repo Structure
 
@@ -231,3 +232,13 @@ When you complete our program with passing status, you unlock our alumni perks:
 ### Welcome!
 
 <img src="https://media.giphy.com/media/OF0yOAufcWLfi/giphy.gif" width="900">
+
+
+## Class Lessons and Recordings
+###### #class-lessons-recordings
+
+All course recordings will be linked below as well as quick links to that days markdown files and exercises. Recordings will be posted witin 12 - 24 hours of that class ending.
+
+| Day | Lectures | Labs | Homework | Recording |
+|:---:|:-----------:|:-------:|:-----------:|:-----------:|
+| w02d1 |[Intro to HTML](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/01-intro-to-html.md), [Intro to CSS](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/02-intro-to-css.md), [How to Build a Browser Game](https://git.generalassemb.ly/SEI/dt-71/blob/master/units/1_front_end_devlopment/w01/d5/03-04-guide-to-building-a-browser-game.md) | [CSS Diner (CSS Selector Practice)](https://flukeout.github.io/), [Build a Game Together](https://git.generalassemb.ly/SEI/holeman-game) | [JS Code Challenges](https://git.generalassemb.ly/SEI/js-code-challenges), [Holeman Game (Optional)](https://git.generalassemb.ly/SEI/holeman-game), [Tic-Tac-Toe Game](https://git.generalassemb.ly/SEI/dt-71/tree/master/units/1_front_end_devlopment/w01/d5/tic-tac-toe-weekend) | [Recording]() |
