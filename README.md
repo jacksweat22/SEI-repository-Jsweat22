@@ -202,9 +202,9 @@ These coding challenges start with day 1 and will continue through week 8 (exclu
 
 | Role                    | Name                | Slack                | Email                                |
 | :---------------------- | :------------------ | :------------------- | :----------------------------------- |
-| Lead Instructor         | Greg Santos         | @gregsantos          | greg.santos@generalassemb.ly         |
+| Lead Instructor         | Madeline O'Moore (Temp Remote Instructor)  | @madeline.omoore          | madeline.omoore@generalassemb.ly         |
 | Instructional Associate | Michael Christenson | @michael.christenson | michael.christenson@generalassemb.ly |
-| Instructional Associate | Milcah Centeno | @milcah.centeno | milcah.centeno@generalassemb.ly |
+| Instructional Associate | Milcah Centeno (Temp IA) | @milcah.centeno | milcah.centeno@generalassemb.ly |
 
 ### Course Information
 
