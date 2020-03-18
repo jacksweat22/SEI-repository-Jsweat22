@@ -4,11 +4,11 @@
 // wait three seconds, then write "Ding!" to the console.  Instead, it writes
 // "Ding!" immediately.  Find the bug and fix it.
 
-function writeDing(){
-    console.log('ding!');
-}
+// function writeDing(){
+//     console.log('ding!');
+// }
 
-let timerId = setTimeout(writeDing, 3000);
+// let timerId = setTimeout(writeDing, 3000);
 
 
 //   // Exercise 2
@@ -23,19 +23,20 @@ let timerId = setTimeout(writeDing, 3000);
 // // Write the callback function to provide to the sort method so that
 // // the following code sorts the words from shortest to longest.
 
-// const words = ['short', 'medium', 'delicious', 'nice', 'lengthy'];
+let words = ['short', 'medium', 'delicious', 'nice', 'lengthy'];
 
-// const sortedWords = words.sort(/* pass in a named callback here */);
+let sortedWords = words.sort(sortByLength);
 
-// // Check that logging sortedWords outputs
-// // ["nice", "short", "medium", "lengthy", "delicious"]
-// // Exercise 3
-// //
-// // Change Exercise 2 so that:
-// //   1. The words sort longest to shortest
-// //   2. Use an anonymous inline function
 
-// const longWordsFirst = words.sort(/* write an anonymous inline function here */);
+
+
+// Exercise 3
+//
+// Change Exercise 2 so that:
+//   1. The words sort longest to shortest
+//   2. Use an anonymous inline function
+
+const longWordsFirst = words.sort((a,b) = a.length - b.length);
 
 // // Check that logging longWordsFirst outputs
 // // ["delicious", "lengthy", "medium", "short", "nice"]
