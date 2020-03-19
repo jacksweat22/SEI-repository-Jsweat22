@@ -16,8 +16,10 @@ class Vehicle{
         this.running = false;
         console.log("stopped...")
      };
-
-}
+static about(){
+    alert("i'm the vehicle class!")
+};
+};
 
 let v1 = new Vehicle('asdk', 'Tesla', 'X');
 let v2 = new Vehicle('asdf', 'volvo', 'xc90')
