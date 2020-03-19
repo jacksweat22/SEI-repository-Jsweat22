@@ -25,3 +25,5 @@ const people = ["jerks", "nice people", "jerks", "nice people", "nice people"];
 const nicePeople = people.filter(person => person !== "jerks")
 
 console.log(nicePeople)
+
+ inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year))
