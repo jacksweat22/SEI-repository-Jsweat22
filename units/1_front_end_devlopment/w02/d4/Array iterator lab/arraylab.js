@@ -18,12 +18,12 @@ const inventors = [
   // Array.prototype.filter()
   // 1. Filter the list of inventors for those who were born in the 1500's
   
-  const inventor = inventors.filter(ancient => ancient.year >= 1500 &&  ancient.year <= 1599);
+  const inventor = inventors.filter(ancient => ancient.year >= 1500 && ancient.year <= 1599);
   
   // Array.prototype.map()
   // 2. Give us an array of the inventors' first and last names
   
-  
+  let famousInventors = inventors.map(nomiker => nomiker + `${first} + ${last}`);
   
   // Array.prototype.sort()
   // 3. Sort the inventors by birthdate, oldest to youngest
